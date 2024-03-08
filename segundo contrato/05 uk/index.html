@@ -1,330 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>*|MC:SUBJECT|*</title>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
     <style>
-        /* general */
-        body {
-            margin: 0;
-            background-color: #fafafa;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
-        }
-        .tabla {
-            width: 100%;
-            max-width: 660px;
-            background-color: white;
-        }
-        /* typography */
-        p, ul {
-            mso-line-height-rule:exactly;
-            line-height: 16px;
-            color: #5a5a5a;
-            font-weight: 300;
-            font-size: 12px;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        h1, h2, h3 {
-            color: #111111;
-        }
-        h1, h2 {
-            mso-line-height-rule:exactly;
-            line-height:25px;
-            letter-spacing: 1px;
-        }
         h2 {
-            font-size: 23px;
-            font-weight: 300;
-            mso-line-height-rule:exactly;
-            line-height: 25px;
+            margin-top: 80px;
+            margin-bottom: 64px;
         }
-        h3 {
-            font-size: 14px;
-            mso-line-height-rule:exactly;
-            line-height: 17px;
-        }
-        h4 {
-            font-size: 12px;
-            mso-line-height-rule:exactly;
-        }
-
-        .heading__title {
-            margin-bottom: 10px;
-            margin-top: 30px;
-            font-size: 25px;
-            color: #1e68b5;
-        }
-        .heading__subtitle {
-            color: #1e68b5;
-            text-transform: uppercase;
-        }
-        .lead {
-            font-size: 16px;
-            mso-line-height-rule:exactly;
-            line-height: 21px;
-
-        }
-        .figcaption {   
-            font-size: 10px;
-            mso-line-height-rule:exactly;
-            line-height: 13px;
-            margin-top: 5px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #a7a7a7;
-        }
-        .link-footer {
-            font-size: 12px;
-            text-decoration: none;
-            color: #1e68b5;
-        }
-        /* components */
-        .link-anchor {
-            color: #1e68b5;
-        }
-        .btn {
-            padding: 8px 16px;
-            border: 1px solid #1e68b5;
-            margin-bottom: 16px;
-        }
-        .divider {
-            border: none;
-            height: 1px;
-            margin-bottom: 30px;
-        }
-        .divider-b {
-            background-color: #1e68b5;
-        }
-        .divider-g {
-            background-color: #38c7ba;
-        }
-        .divider-p {
-            background-color: #7f05bf;
-        }
-        .divider-r {
-            background-color: #ef144f;
-        }
-        .divider-y {
-            background-color: #ffcc42;
-        }
-        .divider-2b {
-            background-color: #004987;
-        }
-        .divider-m {
-            background-color: #a3a39e;
-        }
-        .b-l-g {
-            border-left: 3px solid #38c7ba;
-        }
-        .b-l-y {
-            border-left: 3px solid #ffcc42;
-        }
-        .b-l-p {
-            border-left: 3px solid #7f05bf;
-        }
-        .b-l-r {
-            border-left: 3px solid #ef144f;
-        }
-        .b-l-2b {
-            border-left: 3px solid #004987;
-        }
-        .icon-footer {
-            background-color: #1e68b5;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        /* utilities */
-        .column {
-            vertical-align: top;
-        }
-        .m-t-4 {
-            margin-top: 40px;
+        p {
+            text-align: justify;
+            hyphens: auto;
+           -webkit-hyphenate-limit-before: 3; /* Número de caracteres antes del guión (WebKit) */
+           -webkit-hyphenate-limit-after: 2; /* Número de caracteres después del guión (WebKit) */
+           hyphen-limit-chars: 6; /* Límite de caracteres en guiones */
         }
     </style>
 </head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 600px;">
 
-<body>
-    <table class="tabla" border="0" cellspacing="18" align="center" style="background-color:#ffffff;">
-        <tbody>
-            <tr>
-                <td colspan="2">
-                    <!-- tabla device-brand -->
-                    <table border="0" cellspacing="0">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/9e7c7d8b-c295-1429-180d-d35701e16cce.png" alt="device brand" width="620" height="120">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <!-- tabla cabecera -->
-                    <table border="0" cellspacing="0">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <h1 class="heading__title">
-                                        Guardian Select Newsletter
-                                    </h1>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            <tr>
-            <tr>
-                <!-- celda 1 columna - destacada -->
-                <td colspan="2">
-                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/013181ab-f4f9-4315-0a32-e1ff128c5fe8.jpg" alt="" width="622" height="auto">
-                    <h3 class="lead">
-                        What's new in Glass Analytics
-                    </h3>
-                    <p class="lead" style="margin-bottom: 32px;">
-                        Now, just go to "My settings / update a logo" to be able to include your company's logo in the reports. Furthermore, by accessing "Standard Coating Manufacturer", you can select "Type: Textured Surface" and obtain the luminous thermal values of our Satindeco frosted glass product. Please be aware of the disclaimer that accompanies these values.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <!-- celda 1 columna - destacada -->
-                <td colspan="2">
-                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/ceefd4fa-0c17-9137-18a1-2b7b0b2ce1bd.png" alt="" width="622" height="auto">
-                    <h3 class="lead">
-                        Upcoming Guardian Select Webinar: Accoustics
-                    </h3>
-                    <p class="lead" style="margin-bottom: 32px;">
-                        In this brand new webinar, we will be <span style="color: red;"> bla bla bla ampliar información. Falta confirmar título para cambiar imagen, tu enlace a Teams y confirmar hora para ponerlo</span>. Do not miss out this opportunity and join us on <strong>Friday 22th January at 12:00 (GMT +00:00)</strong>.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <!-- celda columna izquierda -->
-                <td class="column">
-                    <table border="0" cellspacing="0" cellpadding="0">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src=""  alt="" width="301" height="auto">
-                                    <h3>
-                                        
-                                    </h3>
-                                    <p style="margin-bottom: 32px;">
-                                        
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <!-- celda columna derecha -->
-                <td class="column">
-                    <table border="0" cellspacing="0" cellpadding="0">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="" alt="" width="301" height="auto">
-                                    <h3>
-                                        
-                                    </h3>
-                                    <p style="margin-bottom: 32px;">
-                                        
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <!-- celda 1 columna - destacada -->
-                <td colspan="2">
-                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/64adc95e-7056-abf7-52da-fefbb01c9621.jpg" alt="Certificado webinar Guardian Select" width="622" height="auto">
-                    <h3 class="lead">
-                        Uk Building Regulations & Glass
-                    </h3>
-                    <p class="lead" style="margin-bottom: 32px;">
-                        This document is an informative quick reference guide on the UK Building Regulations concerning glass. Doc L (Conservation of fuel and power), Doc Q Security in Dwellings() and Doc O (Overheating) are the 3 documents highlighted in this guide since they contain specific standards to abide by when it comes to glass. For more information, contact us via email at <a class="link-anchor" href="mailto:guardianselect@guardian.com">guardianselect@guardian.com</a>. <a class="link-anchor" href="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/files/fb3ada8f-8341-156b-e33d-085010731268/4046_guide_uk_building_regulations_amp_glass_v.260224_screen.pdf">Download document</a>.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <!-- tabla pie -->
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <hr class="divider divider-m">
-                                    <table border="0" cellspacing="18" width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td width="50%">
-                                                    <table border="0" align="center">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="column">
-                                                                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/9888a0be-92e1-d5bb-064c-977c1e8586af.png" alt="web" width="25" height="25" align="center">
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table border="0" align="center">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="column">
-                                                                    <a class="link-footer" href="https://www.guardianglass.com/gb/en/tools-and-resources/resources/resource-hub">
-                                                                        Resource Hub</a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                                <td width="50%">
-                                                    <table border="0" align="center">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="column">
-                                                                    <img src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/d60a7687-9c1f-69b4-cf20-24253adbd8a4.png" alt="web" width="25" height="25" align="center">
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <table border="0" align="center">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="column">
-                                                                    <a class="link-footer" href="mailto:guardianselect@guardian.com">
-                                                                        Contact Guardian Select</a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="height: 10px;">
-                                    <p>
-                                        You have received this email as a member of the GUARDIAN SELECT program. Do you want to change the way you receive these emails? You can <a class="link-anchor" href="*|UPDATE_PROFILE|*">update your preferences</a> or <a class="link-anchor" href="*|UNSUB|*">unsubscribe from the list</a>.
-                                  </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <p style="text-align: right;">
+            <img style="margin-bottom: 32px; margin-top: 32px; margin-left: auto;" src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/da97ab74-9190-7f86-3606-1a550587792a.png" alt="" width="225px" height="81">
+        </p>    
+        <h1 style="color: #1e68b5; text-wrap:balance; mso-line-height-rule: exactly; line-height: 1.1; font-size: 2rem;">
+            Guardian Select Newsletter
+        </h1>
+        <hr style="border: 1px solid #a3a39e; margin-bottom: 50px;">
+    </header>
+
+    <main>     
+        <section>
+            <h2 style="color: #1e68b5; text-wrap:balance; mso-line-height-rule: exactly; line-height: 1.1; font-size: 1.5rem;">
+                What's new in Glass Analytics
+            </h2>
+            <article>
+                <img style="max-width: 100%; height: auto;" src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/105ed11c-a8ee-0eed-6d00-d7a27685f789.jpg" alt="" width="600" height="auto">
+                <h3 style="text-wrap: balance;">
+                     Guardian SatinDeco® in Glass Analytics
+                </h3>
+                <p>
+                    Guardian's SatinDeco® is a translucent, satin glass that also has a high level of natural light transmission. This not only allows plenty of light to pass through, but gently diffuses it to create environments that appear to glow.
+                </p>
+                <p>
+                    The uniform etching of SatinDeco® also helps make marks such as fingerprints less visible.
+                </p>
+                <p>
+                    Now you can configure it in our Guardian Glass Analytics, select the desired position and click on “Guardian Europe Residential” and change it to “Type: Textured surface” below select “Guardian SatinDeco®” and click accept.
+                </p>
+                <p style="margin-bottom: 80px;">
+                    When you issue the report, be aware of the disclaimer notice that accompanies these values.
+                </p>
+            </article>
+            <article>
+                <img style="max-width: 100%; height: auto;" src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/013181ab-f4f9-4315-0a32-e1ff128c5fe8.jpg" alt="" width="600" height="429    ">
+                <h3 style="text-wrap: balance;">
+                    Your logo on the Glass Analytics technical sheet
+                </h3>
+                <p>
+                    You can now customise the technical sheets you create with our Guardian Glass Analytics.
+                </p>
+                <p>
+                    To attach your logo, you must go to the "My settings" section and click on "Upload logo" and to finish click on "Save changes".
+                </p>
+                <p style="margin-bottom: 80px;">
+                    By uploading a logo, image or trademark for use in Guardian Performance Calculator software, you acknowledge ownership of the rights to the logo, image or trademark that is uploaded and agree to the terms of the Disclaimer section in the exit report.
+                </p>
+            </article>
+            <article>
+                <img style="max-width: 100%; height: auto;" src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/3cfca09c-22d4-da73-285e-da89972c42cb.png"  alt="" width="600" height="429">
+                <h3>
+                    Upcoming Guardian Select Webinar: Acoustics & Glass
+                </h3>
+                <p style="margin-bottom: 80px;">
+                    In this webinar, we will delve into the harmonious world of sound and its interaction with glass. We will explore fundamental acoustic principles and examine how glass plays a pivotal role in sound insulation. Our expert will guide you through various strategies to enhance acoustic performance using glass. Lastly, we'll navigate through the current regulations that govern sound insulation in buildings. Do not miss out this opportunity and join us on <strong>Friday 22nd March at 12:00 (GMT +00:00)</strong>.
+                </p>
+            </article>
+            <article>
+                <img style="max-width: 100%; height: auto;"  src="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/images/64adc95e-7056-abf7-52da-fefbb01c9621.jpg" alt="" alt="" width="600" height="429">
+                <h3>
+                    New UK Building Regulations & Glass Reference Guide!
+                </h3>
+                <p style="margin-bottom: 80px;">
+                    As promised in the past Webinar on Regulations, Guardian Select launches the new UK Building Regulations & Glass Reference Guide. This document is an informative brochure on the UK Building Regulations concerning glass. Doc L (Conservation of fuel and power), Doc O (Overheating), and Doc Q Security in Dwellings are the 3 documents highlighted since they contain specific standards to abide by when it comes to glass. We are sure it will be a very useful tool for you. You can download it <a class="link-anchor" href="https://mcusercontent.com/c0345e9000cacc51ee17c5d30/files/fb3ada8f-8341-156b-e33d-085010731268/4046_guide_uk_building_regulations_amp_glass_v.260224_screen.pdf">here</a>, print it and distribute among your customers. Remember that it is also available in the <a class="link-footer" href="https://www.guardianglass.com/gb/en/tools-and-resources/resources/resource-hub">Resource Hub</a>.
+                </p>
+            </article>
+        </section>
+    </main>
+    <hr style="border: 1px solid #a3a39e; margin-bottom: 32px;">
+    <small style="text-align: center; margin-bottom: 32px; line-height: 1.2;">
+        <a href="https://www.guardianglass.com/gb/en/tools-and-resources/resources/resource-hub">Resource Hub</a> | <a href="mailto:guardianselect@guardian.com">Contacto Guardian Select</a>
+    </small>
+    <br>
+    <br>
+    <small style="color:#a3a39e;">
+        You have received this email as a member of the GUARDIAN SELECT program. Do you want to change the way you receive these emails? You can <a class="link-anchor" href="*|UPDATE_PROFILE|*">update your preferences</a> or <a class="link-anchor" href="*|UNSUB|*">unsubscribe from the list</a>.
+    </small>
 </body>
 </html>
