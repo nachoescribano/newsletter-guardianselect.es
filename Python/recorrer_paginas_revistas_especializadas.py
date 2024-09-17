@@ -41,16 +41,26 @@ def extraer_noticias_sector(url):
 # Lista de URLs de sitios de noticias del sector
 urls_sector = [
     "https://www.glassonweb.com/news",
-    #"https://www.glassonline.com/news/",
-    #"https://www.glass-international.com/news",
-    #"https://www.constructionnews.co.uk/",
-    #"https://europeanconstructionindustryfederation.eu/news",
-    #"https://www.glassmagazine.com/news",
-    "https://www.vidrioperfil.com/es-es/buscador?query=guardian+select", #esta
-    "https://www.interempresas.net/Vidrio-plano/Articulos/", #esta
+    "https://www.glassonline.com/news/",
+    "https://www.glass-international.com/news",
+    "https://www.constructionnews.co.uk/",
+    "https://europeanconstructionindustryfederation.eu/news",
+    "https://www.glassmagazine.com/news",
+    "https://www.vidrioperfil.com/es-es/buscador?query=guardian+select", 
     "https://www.infoconstruccion.es/noticias/construccion",
-    "https://www.prefieres.es/category/noticias/", #esta
+    "https://www.prefieres.es/category/noticias/", 
     "https://www.prefieres.es/?s=GUARDIAN+SELECT",
+    # interempresas
+    "https://www.interempresas.net/Buscador/?q=Guardian&oo=%F2%F3&CAC=R",
+    "https://www.interempresas.net/Cerramientos_y_ventanas/Articulos/",
+    "https://www.interempresas.net/Vidrio-plano/Articulos/",
+    "https://www.interempresas.net/Vidrio-plano/FeriaVirtual/Noticias-Guardian-Glass-Express-S-L-197572.html",
+
+    # Vidrioperfil.com
+    "https://www.vidrioperfil.com/es-es/buscador?query=Guardian",
+    
+    # Glasstec
+    "https://www.glasstec-online.com/en/Visitors/Hot_Topics/Overview_Hot_Topics"
     # Añade más URLs aquí
 ]
 

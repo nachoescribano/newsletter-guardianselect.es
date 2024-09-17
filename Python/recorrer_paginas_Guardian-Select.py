@@ -42,7 +42,6 @@ def extraer_noticias(url):
 urls_empresas = [
     "https://www.astiglass.com/noticias/",
     "http://www.controlglass.com/actualidad/",
-    "https://cristaleriatama.com/es/noticias/",
     "https://www.crielec.com/novedades/",
     "https://www.dicrisur.es/blog",
     "http://www.k2glass.es/actualidad/",
